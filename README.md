@@ -1,6 +1,6 @@
 # Vue Enterprise Boilerplate
 
-[![CircleCI](https://circleci.com/gh/chrisvfritz/vue-enterprise-boilerplate/tree/master.svg?style=svg)](https://circleci.com/gh/chrisvfritz/vue-enterprise-boilerplate/tree/master)
+**You diverged from the boilerplate on Feb 09 2019. See [what's been added](https://github.com/chrisvfritz/vue-enterprise-boilerplate/compare/9791c9f29dd32f117e555c60a7a48be7d02bb504...master) since then.**
 
 > This is an ever-evolving, very opinionated architecture and dev environment for new Vue SPA projects using [Vue CLI 3](https://github.com/vuejs/vue-cli). Questions, feedback, and for now, even bikeshedding are welcome. 😄 If you'd like to increase the time I can spend on this project, as well as other Vue resources, **please consider becoming a [sponsor on Patreon](https://www.patreon.com/chrisvuefritz)**. :pray:
 
@@ -11,43 +11,20 @@
 - [**First-class tests**](docs/tests.md): Practice test-driven development with both unit and end-to-end tests. Unit tests with Jest live as first-class citizens alongside your source files, while Cypress provides reliable end-to-end tests in an intuitive GUI for development.
 - [**Speedy development**](docs/development.md): Between [configurable generators](docs/development.md#generators), [handy aliases](docs/development.md#aliases), and [global base components](docs/development.md#base-components), your productivity will skyrocket.
 
-## Getting started
-
-```bash
-# 1. Clone the repository.
-git clone https://github.com/chrisvfritz/vue-enterprise-boilerplate.git my-new-project
-
-# 2. Enter your newly-cloned folder.
-cd my-new-project
-
-# 3. Install dependencies. Make sure yarn is installed: https://yarnpkg.com/lang/en/docs/install
-yarn
-
-# 4. Replace this README's CI badge with a note about when you started
-# and a link to a compare URL, so that you can always get an overview
-# of new features added to the boilerplate since you cloned.
-node _start.js
-
-# 5. Delete the start script, as there can be only one beginning.
-rm _start.js
-
-# 6. Read the documentation linked below for "Setup and development".
-```
-
 ## Documentation
 
 This project includes a `docs` folder with more details on:
 
-1.  [Setup and development](docs/development.md)
-1.  [Architecture](docs/architecture.md)
-1.  [Languages and technologies](docs/tech.md)
-1.  [Routing, layouts, and views](docs/routing.md)
-1.  [State management](docs/state.md)
-1.  [Tests and mocking the API](docs/tests.md)
-1.  [Linting and formatting](docs/linting.md)
-1.  [Editor integration](docs/editors.md)
-1.  [Building and deploying to production](docs/production.md)
-1.  [Troubleshooting](docs/troubleshooting.md)
+1. [Setup and development](docs/development.md)
+1. [Architecture](docs/architecture.md)
+1. [Languages and technologies](docs/tech.md)
+1. [Routing, layouts, and views](docs/routing.md)
+1. [State management](docs/state.md)
+1. [Tests and mocking the API](docs/tests.md)
+1. [Linting and formatting](docs/linting.md)
+1. [Editor integration](docs/editors.md)
+1. [Building and deploying to production](docs/production.md)
+1. [Troubleshooting](docs/troubleshooting.md)
 
 ## FAQ
 

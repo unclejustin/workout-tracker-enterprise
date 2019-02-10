@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "start": "concurrently --kill-others \"npm run localserver\"  \"npm run serve\"",
+    "localserver": "cd server && npm start",
     "dev": "vue-cli-service serve",
     "dev:e2e": "vue-cli-service test:e2e --mode=development",
     "build": "vue-cli-service build --modern",
@@ -53,6 +55,7 @@
     "@vue/test-utils": "1.0.0-beta.29",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "24.1.x",
+    "concurrently": "^4.1.0",
     "cross-env": "5.2.x",
     "eslint-plugin-vue": "5.1.x",
     "express": "4.16.x",
