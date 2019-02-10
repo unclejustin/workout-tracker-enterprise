@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node ./index.js"
   },
   "keywords": [],
   "author": "Justin Boyson <unclejustin@gmail.com> (http://justinboyson.com)",
@@ -16,6 +16,7 @@
     "nodemon": "^1.18.10"
   },
   "dependencies": {
-    "fastify": "^1.14.1"
+    "fastify": "^1.14.1",
+    "uuid": "^3.3.2"
   }
 }
