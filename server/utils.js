@@ -68,11 +68,11 @@ const updateItem = (fastify, path, data) => {
 const deleteItem = (fastify, path, data) => {
   fastify.delete('/' + path, async ({ body }, reply) => {
     try {
-      const { itemId } = body
-      const index = data.findIndex((i) => i.id === itemId)
+      const { id } = body
+      const index = data.findIndex((i) => i.id === id)
 
       if (index === -1) {
-        throw new Error(`Cannot find ${path} with id: ${itemId}`)
+        throw new Error(`Cannot find ${path} with id: ${id}`)
       }
 
       const item = { ...data[index] }
